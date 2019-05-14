@@ -29,6 +29,13 @@
   color: #0f0f0f;
 }
 
-.a-my {
-  width: 100%;
+
+@media only screen and (min-width: 576px) {
+  .list-inline-item {
+    display: block;
+  }
+  .list-inline {
+    display: block;
+  }
+
 }
